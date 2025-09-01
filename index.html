@@ -2,137 +2,171 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Shubham Jain – Deloitte Interview</title>
+  <title>Shubham Jain - Deloitte Interview</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f4f7fb;
+      background: #f4f6f8;
       color: #333;
     }
+
     header {
-      background: #0c2340;
+      background: #0d223d; /* Deloitte dark blue */
+      padding: 25px;
+      text-align: center;
       color: white;
-      padding: 20px;
       position: relative;
-      overflow: hidden;
     }
-    header img {
+
+    header img.logo-left {
       position: absolute;
       top: 15px;
-      height: 55px;
-      transition: transform 0.3s ease, opacity 0.3s ease;
-    }
-    header img.left-logo {
       left: 20px;
+      height: 60px;
     }
-    header img.right-logo {
+
+    header img.logo-right {
+      position: absolute;
+      top: 15px;
       right: 20px;
+      height: 60px;
     }
-    header img:hover {
-      transform: scale(1.1);
-      opacity: 0.85;
-    }
-    header h1 {
+
+    h1 {
       margin: 0;
-      font-size: 2em;
-      text-align: center;
+      font-size: 30px;
     }
-    header p {
-      margin: 5px 0 0;
-      font-size: 1.1em;
-      text-align: center;
+
+    .contact {
+      font-size: 14px;
+      margin-top: 5px;
     }
+
+    .contact a {
+      color: #aee63a; /* Deloitte light green */
+      text-decoration: none;
+    }
+
     main {
-      max-width: 900px;
-      margin: 40px auto;
-      background: white;
-      padding: 25px;
+      max-width: 950px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 30px;
       border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
     }
+
     h2 {
-      border-left: 5px solid #86bc25;
-      padding-left: 10px;
-      margin-top: 30px;
-      color: #0c2340;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    ul li {
-      margin: 10px 0;
-      padding: 10px;
-      background: #f4f7fb;
-      border-radius: 8px;
-    }
-    footer {
-      text-align: center;
-      padding: 15px;
-      background: #0c2340;
+      display: inline-block;
+      background: #0d223d;
       color: white;
+      padding: 8px 16px;
+      border-radius: 25px;
+      font-size: 18px;
       margin-top: 40px;
-      font-size: 0.9em;
+      margin-bottom: 15px;
+    }
+
+    .highlight {
+      background: #f9fdf6;
+      border-left: 6px solid #aee63a;
+      padding: 18px;
+      margin: 20px 0;
+      border-radius: 8px;
+      line-height: 1.6;
+    }
+
+    ul {
+      margin: 10px 0 20px 25px;
+      line-height: 1.6;
+    }
+
+    .section {
+      margin-bottom: 25px;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <!-- Deloitte Logo -->
-    <img src="https://mma.prnewswire.com/media/2441415/Deloitte_Logo.jpg?p=facebook" 
-         alt="Deloitte Logo" class="left-logo">
-
-    <h1>Shubham Jain hi </h1>
-    <p>Candidate for Deloitte Interview</p>
-
-    <!-- SRM University Logo -->
-    <img src="https://logodix.com/logo/46465.png" 
-         alt="SRM University Logo" class="right-logo">
+    <img src="https://mma.prnewswire.com/media/2441415/Deloitte_Logo.jpg?p=facebook" alt="Deloitte Logo" class="logo-left">
+    <h1>Shubham Jain</h1>
+    <div class="contact">
+      +91-8287434320 • shubham2004jain@gmail.com • 
+      <a href="https://linkedin.com/in/shubham-jain">LinkedIn</a> • 
+      <a href="https://github.com/shubham-jain-dev">GitHub</a>
+    </div>
+    <img src="https://logodix.com/logo/46465.png" alt="SRM Logo" class="logo-right">
   </header>
 
   <main>
-    <section>
-      <h2>About Me</h2>
+    <section class="section">
+      <h2>Summary</h2>
       <p>
-        I am a Computer Science Engineering student passionate about 
-        <b>cloud, DevOps, and AI-driven solutions</b>. 
-        I enjoy solving complex problems and building impactful projects.
+        Analytical and solution-oriented Computer Science Engineering student with a strong foundation in technology-driven business transformation. 
+        Skilled in AWS services, cloud deployment, and web development with hands-on experience delivering end-to-end projects. 
+        Experienced in product management and cross-functional collaboration, with exposure to data analytics, enterprise workflows, and emerging technologies.
       </p>
     </section>
 
-    <section>
-      <h2>Key Skills</h2>
-      <ul>
-        <li>Cloud & DevOps: AWS, Terraform, Kubernetes, CI/CD</li>
-        <li>Programming: Python, JavaScript, C++</li>
-        <li>Web Development: HTML, CSS, React</li>
-        <li>Team Collaboration & Product Management</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Projects</h2>
-      <ul>
-        <li>Automated Static Website Hosting on AWS using Terraform</li>
-        <li>Netflix Clone deployed on AWS EC2 with GitHub Actions</li>
-        <li>Real-time RC Car controlled via Arduino & Flysky Transmitter</li>
-      </ul>
-    </section>
-
-    <section>
+    <section class="section">
       <h2>Why Deloitte?</h2>
-      <p>
-        Deloitte’s focus on <b>innovation, sustainability, and client impact</b> 
-        aligns with my career goals. I aspire to contribute to Deloitte’s 
-        projects by applying my technical expertise and problem-solving mindset.
-      </p>
+      <div class="highlight">
+        Deloitte’s focus on <b>innovation, sustainability, and global impact</b> aligns with my career aspirations. 
+        With Deloitte already leading initiatives in <b>Industry 4.0</b> and SAP solutions, I see a strong opportunity 
+        to contribute to transformative projects. I aspire to bring my technical expertise and problem-solving skills 
+        to Deloitte’s client engagements, while also learning from its culture of excellence and global leadership.
+        <br><br>
+        Coming from a <b>Computer Science Engineering</b> background, I have strong analytical and problem-solving skills, 
+        but I’ve realized I’m more interested in the <b>business side of technology</b> — helping organizations implement 
+        and adapt to systems like <b>ERP</b>. I’m confident I can quickly learn tools such as <b>SAP</b> or <b>Oracle</b> 
+        and apply them to solve real-world business challenges without necessarily being in a heavy coding role.
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Education</h2>
+      <ul>
+        <li><b>B.Tech in Computer Science and Engineering</b>, SRM Institute of Science and Technology, Chennai (CGPA: 9.40, Graduating May 2026)</li>
+        <li><b>Senior Secondary (12th, CBSE)</b>, Delhi Public School Sushant Lok, Gurgaon (82.4%, June 2022)</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Professional Experience</h2>
+      <p><b>Confederation of Indian Industry (CII), Gurgaon, Hybrid</b>: Associate Consultant (Tech) (Jun 2025 – Present)</p>
+      <ul>
+        <li>Contributed to product roadmaps and process documentation, improving decision-making and communication.</li>
+        <li>Assisted in managing cross-functional projects, ensuring alignment with business transformation goals.</li>
+        <li>Collaborated with stakeholders across industries to support technology-driven initiatives and strategies.</li>
+      </ul>
+
+      <p><b>AWS Tech Alliance, Chennai, Onsite</b>: Cloud Engineer Learner (Mar 2025 – Jun 2025)</p>
+      <ul>
+        <li>Gained hands-on experience in cloud monitoring, configuration, and performance optimization.</li>
+        <li>Applied DevOps methodologies, cloud security practices, and Infrastructure-as-Code (Terraform).</li>
+        <li>Deployed and managed cloud infrastructure using real-world tools and AWS services.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Academic Projects</h2>
+      <p><b>Evolve: The E-Waste Solution</b> (Jan 2025 – Present)</p>
+      <ul>
+        <li>Managed Project Evolve, an e-waste management solution focused on recycling, reuse, and safe disposal.</li>
+        <li>Led product strategy, user research, and cross-functional coordination to promote environmental sustainability.</li>
+        <li>Integrated sustainability practices and data-driven insights to optimize environmental impact.</li>
+      </ul>
+
+      <p><b>Jenkins CI/CD Pipeline with SonarQube and Docker</b> (Feb 2025 – Present)</p>
+      <ul>
+        <li>Set up Jenkins on an AWS EC2 instance to automate build, testing, and deployment tasks.</li>
+        <li>Integrated GitHub with Jenkins for continuous integration and version control.</li>
+        <li>Created Docker images of the application and automated deployment using Jenkins pipelines.</li>
+      </ul>
     </section>
   </main>
-
-  <footer>
-    &copy; 2025 Shubham Jain | Designed for Deloitte Interview
-  </footer>
 </body>
 </html>
